@@ -1,0 +1,80 @@
+export const hotelsData = [
+  {
+    id: 1,
+    name: "Ganga Beach Resort",
+    area: "Tapovan",
+    priceRange: "₹1,500 - ₹2,500 per night",
+    rating: 4,
+    familyFriendly: true,
+    amenities: ["WiFi", "Parking", "Restaurant", "Garden"],
+    contact: "+91 1234567890",
+    distance: "1.2 km from Laxman Jhula",
+    description: "Budget-friendly resort with beautiful Ganga views",
+    image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    id: 2,
+    name: "Holy River Hotel",
+    area: "Laxman Jhula",
+    priceRange: "₹2,000 - ₹3,000 per night",
+    rating: 4.5,
+    familyFriendly: true,
+    amenities: ["AC Rooms", "WiFi", "Breakfast", "Travel Desk"],
+    contact: "+91 9876543210",
+    distance: "0.5 km from Laxman Jhula",
+    description: "Centrally located with easy access to all attractions",
+    image: "/images/hotel2.jpg"
+  },
+  {
+    id: 3,
+    name: "Devbhumi Homestay",
+    area: "Tapovan",
+    priceRange: "₹800 - ₹1,500 per night",
+    rating: 4.0,
+    familyFriendly: true,
+    amenities: ["Kitchen", "WiFi", "Laundry", "Balcony"],
+    contact: "+91 8765432109",
+    distance: "2 km from city center",
+    description: "Homely atmosphere perfect for large families",
+    image: "/images/hotel3.jpg"
+  },
+  {
+    id: 4,
+    name: "Shiv Shakti Guest House",
+    area: "Ram Jhula",
+    priceRange: "₹1,200 - ₹2,000 per night",
+    rating: 3.8,
+    familyFriendly: true,
+    amenities: ["WiFi", "Hot Water", "Room Service", "Terrace"],
+    contact: "+91 7654321098",
+    distance: "1 km from Ram Jhula",
+    description: "Economical stay with basic amenities",
+    image: "/images/hotel4.jpg"
+  },
+  {
+    id: 5,
+    name: "Yoga Bhavan Stay",
+    area: "Swarg Ashram",
+    priceRange: "₹600 - ₹1,200 per night",
+    rating: 3.5,
+    familyFriendly: false,
+    amenities: ["Yoga Hall", "Vegetarian Food", "Meditation Space"],
+    contact: "+91 6543210987",
+    distance: "1.5 km from main market",
+    description: "Simple accommodation focused on yoga and meditation",
+    image: "/images/hotel5.jpg"
+  },
+  {
+    id: 6,
+    name: "River View Cottage",
+    area: "Byasi",
+    priceRange: "₹3,000 - ₹4,500 per night",
+    rating: 4.7,
+    familyFriendly: true,
+    amenities: ["Private Beach", "AC", "Swimming Pool", "Multi-cuisine Restaurant"],
+    contact: "+91 5432109876",
+    distance: "8 km from Rishikesh",
+    description: "Luxury stay with private river access",
+    image: "/images/hotel6.jpg"
+  }
+];

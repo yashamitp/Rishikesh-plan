@@ -1,0 +1,101 @@
+export const restaurantsData = [
+  {
+    id: 1,
+    name: "Chotiwala Restaurant",
+    area: "Laxman Jhula",
+    cuisine: "North Indian",
+    costPerPerson: "₹300 - ₹500",
+    rating: 4.3,
+    vegetarian: true,
+    specialties: ["Thali", "Paneer Dishes", "North Indian Curries"],
+    familyFriendly: true,
+    bestFor: "Lunch & Dinner",
+    contact: "+91 1234567890",
+    timing: "11 AM - 11 PM",
+    description: "Legendary restaurant known for traditional North Indian food"
+  },
+  {
+    id: 2,
+    name: "Little Buddha Cafe",
+    area: "Tapovan",
+    cuisine: "Continental, Israeli",
+    costPerPerson: "₹400 - ₹700",
+    rating: 4.5,
+    vegetarian: true,
+    specialties: ["Hummus Platter", "Falafel", "Pasta", "Smoothies"],
+    familyFriendly: true,
+    bestFor: "Breakfast & Lunch",
+    contact: "+91 2345678901",
+    timing: "8 AM - 10 PM",
+    description: "Rooftop cafe with great views and international vegetarian cuisine"
+  },
+  {
+    id: 3,
+    name: "Ganga Beach Restaurant",
+    area: "Swarg Ashram",
+    cuisine: "Indian, Chinese",
+    costPerPerson: "₹200 - ₹400",
+    rating: 4.0,
+    vegetarian: true,
+    specialties: ["Chinese Noodles", "Indian Thali", "Fresh Juice"],
+    familyFriendly: true,
+    bestFor: "All meals",
+    contact: "+91 3456789012",
+    timing: "7 AM - 10 PM",
+    description: "Beachside dining with Ganga views"
+  },
+  {
+    id: 4,
+    name: "Bhandari Swiss Cottage",
+    area: "Laxman Jhula",
+    cuisine: "Swiss, Indian",
+    costPerPerson: "₹350 - ₹600",
+    rating: 4.4,
+    vegetarian: true,
+    specialties: ["Cheese Fondue", "Swiss Rosti", "Indian Curries"],
+    familyFriendly: true,
+    bestFor: "Dinner",
+    contact: "+91 4567890123",
+    timing: "12 PM - 11 PM",
+    description: "Unique Swiss-Indian fusion vegetarian restaurant"
+  },
+  {
+    id: 5,
+    name: "Punjabi Dhaba",
+    area: "Tapovan",
+    cuisine: "Punjabi",
+    costPerPerson: "₹150 - ₹300",
+    rating: 3.9,
+    vegetarian: true,
+    specialties: ["Butter Paneer", "Dal Makhani", "Tandoori Roti"],
+    familyFriendly: true,
+    bestFor: "Lunch",
+    contact: "+91 5678901234",
+    timing: "10 AM - 11 PM",
+    description: "Authentic Punjabi vegetarian food at budget prices"
+  },
+  {
+    id: 6,
+    name: "The 60's Cafe",
+    area: "Ram Jhula",
+    cuisine: "Multi-cuisine",
+    costPerPerson: "₹250 - ₹450",
+    rating: 4.2,
+    vegetarian: true,
+    specialties: ["Pizza", "Burger", "Coffee", "Desserts"],
+    familyFriendly: true,
+    bestFor: "Breakfast & Snacks",
+    contact: "+91 6789012345",
+    timing: "7:30 AM - 10 PM",
+    description: "Retro-themed cafe perfect for family hangouts"
+  }
+];
+
+export const budgetMealPlan = {
+  breakfast: "₹200-300 per person",
+  lunch: "₹300-500 per person",
+  dinner: "₹300-500 per person",
+  dailyTotal: "₹800-1,300 per person",
+  tripTotal: "₹3,200-5,200 per person (4 days)",
+  familyTotal: "₹38,400-62,400 (12 people)"
+};
