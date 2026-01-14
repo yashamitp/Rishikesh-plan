@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/" : "/",
+export default defineConfig({
+ base: "/",
   plugins: [
     react(),
     tailwindcss(),
@@ -11,6 +11,6 @@ export default defineConfig(({ mode }) => ({
   server: {
     port: 3000,
     open: true,
-    allowedHosts: ['07ea39da0efe.ngrok-free.app'],
-  },
-}))
+     allowedHosts: ['07ea39da0efe.ngrok-free.app']
+  }
+})
